@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Sentiment analysis Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>MOVIES SENTIMENT ANALYSIS</h1>
+    <div class="input-container">
+        <input type="text" id="searchInput" placeholder="Search for a movie…">
+        <button id="searchButton">Search</button>
+    </div>
+    <div class="wrapper">
+        <button id="nowPlayingButton" class="button1">Now Playing</button>
+        <button id="topRatedButton" class="button1">Top Rated</button>
+    </div>
+    <div class="results"></div>
+    <hr>
+    <div id="reviewModal" class="reviewModal">
+        <button id="closeModal" style="float: right; border: none; background: blue; font-size: 10px;padding: 10px;">&times;</button>
+        <h2 id="movieTitle">Movie Title</h2>
+        <form action="/predict" method="post">
+            <textarea name="message" rows="4" cols="27" placeholder="Enter your movie review here..."></textarea>
+            <br>
+            <button type="submit">Predict Sentiment</button>
+        </form>
+    </div>      
+    <footer>
+        <div id="copyRight">Copyright &copy; 2023 All Rights Reserved</div>
+        <div id="lastFooter">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">License</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
