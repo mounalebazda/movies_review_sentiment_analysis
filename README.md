@@ -14,14 +14,9 @@ SentimentCine is an engaging web application crafted to analyze the emotional co
 - HTML/CSS: Structures and styles the web interface.
 - Pickle: Manages loading the pre-trained machine learning models for sentiment analysis.
 
-# Unique Selling Points :
+# Features :
 
 - Real-time Sentiment Analysis: Offers immediate feedback on the emotional tone of a review, distinguishing between positive and negative sentiments.
 Simple, Intuitive Interface: Allows users to easily submit reviews and view sentiment analysis results, making the tool accessible for all user levels.
 - Educational Tool for Learning: Ideal for students and enthusiasts looking to explore text analysis and sentiment interpretation in real-world applications.
   
-# Target Audience :
-
-- Film Critics and Enthusiasts: Individuals looking to quickly gauge public sentiment on films from online reviews.
-- Content Creators and Marketers: Professionals who need to understand audience reactions to movie releases or marketing content.
-- Educational Institutions: Teachers and students in fields like data science, film studies, and computer science who require practical applications of natural language processing and sentiment analysis.
