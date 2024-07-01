@@ -17,9 +17,9 @@ SentimentCine is an engaging web application crafted to analyze the emotional co
 
 # Features :
 
-- Real-time Sentiment Analysis: Offers immediate feedback on the emotional tone of a review, distinguishing between positive and negative sentiments.
-Simple, Intuitive Interface: Allows users to easily submit reviews and view sentiment analysis results, making the tool accessible for all user levels.
-- Educational Tool for Learning: Ideal for students and enthusiasts looking to explore text analysis and sentiment interpretation in real-world applications.
+- Real-time Sentiment Analysis: Offers immediate feedback on the emotional tone of a review
+- Distinguishing between positive and negative sentiments.
+- Intuitive Interface: Allows users to easily submit reviews and view sentiment analysis results.
 
 ## Application Screenshots
 
